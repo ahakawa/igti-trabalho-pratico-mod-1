@@ -1,0 +1,61 @@
+body {
+  font-family: Cambria;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#lista {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+ul li:nth-child(1) {
+  color: red;
+}
+
+ul li:nth-child(2) {
+  color: green;
+}
+
+ul li:nth-child(3) {
+  color: blue;
+}
+
+.inputColor {
+  margin: 5px;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divRange {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 30px 10px 30px;
+}
+
+.divDisabled input{
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#divSquare {
+  display: flex;
+  width: 50%;
+  height: 150px;
+  background-color: rgb(100, 100, 100);
+}

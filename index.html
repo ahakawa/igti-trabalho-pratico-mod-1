@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de cores</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <h1>Teste a combinação de cores!</h1>
+    <div class="divContainer">
+        <section class="divRange">
+            <ul id="lista">
+                <li>(R) Vermelho:</li>
+                <li>(G) Verde:</li>
+                <li>(B) Azul:</li>
+            </ul>
+        </section>
+
+        <section class="divRange">
+            <input type="range" id="inputR" class="inputColor" value="0" min="0" max="255" />
+            <input type="range" id="inputG" class="inputColor" value="0" min="0" max="255" />
+            <input type="range" id="inputB" class="inputColor" value="0" min="0" max="255" />
+        </section>
+
+        <section class="divRange divDisabled">
+            <input type="text" id="outputR" disabled />
+            <input type="text" id="outputG" disabled />
+            <input type="text" id="outputB" disabled />
+        </section>
+    </div>
+    <div class="container">
+        <div id="divSquare"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
