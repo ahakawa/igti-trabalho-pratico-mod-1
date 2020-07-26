@@ -1,4 +1,5 @@
-# Trabalho Prático - Módulo 1 - Bootcamp Full Stack da IGTI
+# Trabalho Prático - Módulo 1 
+# Bootcamp Full Stack da IGTI
 
 ## Objetivos
 
